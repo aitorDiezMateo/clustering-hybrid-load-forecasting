@@ -1,0 +1,16 @@
+.venv/
+__pycache__/
+*.pyc
+catboost_info/
+stunned_murcia.egg-info/
+data/raw/
+data/weather/
+data/processed/
+data/clustered/
+output/
+output/*
+output/**
+output/**/
+AGENTS.md
+CLAUDE.md
+pipeline.log

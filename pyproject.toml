@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "stunned-murcia"
+version = "0.1.0"
+description = "Hybrid short-term load forecasting for STUNNED Murcia energy data."
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+  "catboost",
+  "chronos-forecasting",
+  "lightgbm",
+  "matplotlib",
+  "numpy",
+  "openpyxl",
+  "optuna",
+  "pandas",
+  "plotly",
+  "prophet",
+  "scikit-learn",
+  "seaborn",
+  "statsmodels",
+  "workalendar",
+  "xgboost",
+]
+
+[tool.setuptools]
+packages = []
